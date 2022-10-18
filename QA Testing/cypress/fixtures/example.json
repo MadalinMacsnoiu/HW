@@ -1,0 +1,72 @@
+{
+  "body": {
+    "fact": "Some common houseplants poisonous to cats include: English Ivy, iris, mistletoe, philodendron, and yew.",
+    "length": 103
+  },
+  "headers": {
+    "server": "nginx",
+    "date": "Fri, 16 Sep 2022 13:00:47 GMT",
+    "content-type": "application/json",
+    "transfer-encoding": "chunked",
+    "connection": "keep-alive",
+    "vary": "Accept-Encoding",
+    "cache-control": "no-cache, private",
+    "x-ratelimit-limit": "100",
+    "x-ratelimit-remaining": "99",
+    "access-control-allow-origin": "*",
+    "set-cookie": [
+      "XSRF-TOKEN=eyJpdiI6Ik1qR01tdlNLcTZGV1lyMEd3T0dHcWc9PSIsInZhbHVlIjoiTUo3cmw2aUUzSW1OWHkrNmF4Z0FqYVJzZHlvbVZyYTY2M1JYRnF4KzRVUWdKWi9uaGlrSVNTRTFHM3VqSnJNRTBGSG9tM1VSTHp3emFpL0JNSjdraFNOQ2VmNk40a3dVQlpUK3pwakg5SGo0c205aE1kR3pWdlFXdHQxRGxObGgiLCJtYWMiOiIyN2FkYjYzMTFlMmViYmI4ZjJmMzY3YTlhODNjZTBhNzcxNWNmZTIzMTliZDFmY2IwYTM2OGM4YzEyOWQ5ZGY4IiwidGFnIjoiIn0%3D; expires=Fri, 16-Sep-2022 15:00:47 GMT; path=/; samesite=lax",
+      "cat_facts_session=eyJpdiI6IlBMckhmc011cHdseUZlZ2NqcnowaGc9PSIsInZhbHVlIjoiRU4rY2FoYWdwRVIvaW1wdmdFTjFZS2padkI2Y1ZUUzdSVmlWZS9CYWd4dGRWcVZLYWl6RE45UUU5WFZKckRTb2pyZ2lYN0Y4Mld1NTF5dUZiMVJlS2FRWHZ0SDRta1J6NVEvRWxub0prYk9GWmVHS1l0bUx4WExtSmZDWU0ybGciLCJtYWMiOiIxMGVmNDg0ZWI5ODBkN2EwMzlkN2NhYzUxMWYwNzhjOTFiMmU5YzFjNzFlMzJhM2E0ZDZmNGQ0YjllZTkxY2QxIiwidGFnIjoiIn0%3D; expires=Fri, 16-Sep-2022 15:00:47 GMT; path=/; httponly; samesite=lax"
+    ],
+    "x-frame-options": "SAMEORIGIN",
+    "x-xss-protection": "1; mode=block",
+    "x-content-type-options": "nosniff",
+    "content-encoding": "gzip"
+  },
+  "status": 200,
+  "statusText": "OK",
+  "isOkStatusCode": true,
+  "requestHeaders": {
+    "Connection": "keep-alive",
+    "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36",
+    "accept": "*/*",
+    "cookie": "cat_facts_session=eyJpdiI6InFsSC9FVThpcWJHZWMwejlseS90TWc9PSIsInZhbHVlIjoiejMva1pDNTNYZVp0dUo5QjdiVW9PK3g3Tm9jN3I4dkREUVlzWjhuYmR3RHZ4NnNKVm5kRkNuUGRTbjhubDI3UGwrYWF2MVZoME1aNkNjTlptYlpRWUgrT0pnWk5WOUQxRDhkSzBHVVFhanlEamtKa0EwS1JTT05zWU55cDRoR0UiLCJtYWMiOiJjYmExMmQ1Mzc0ZWQwMzg3MGMxZTczMzc3NDg1YzliMjQ3YjNhNjZkNTU5MTU1MTQ3NmE4NzZkYmRkMzQ2NDk3IiwidGFnIjoiIn0%3D; XSRF-TOKEN=eyJpdiI6IlZHb1FueHRLK2VZNEJ3TUdBSDNaSEE9PSIsInZhbHVlIjoiWHdEQUNGNnI2NUU3eTZVbVBpbkU1NitnWTZJTklyVmhuNlNoak13OFdwRWhVTDh5Y0dGdWVQMkxMSEZBYVhiK3hMYjVFLzE2d1NiMHNoNEQ0VHBaM1pIQm9qMDJnRi9jTjZPbFhtZmxyTDltWHNvSzlWN3JiUDJlNFlmOC9sZmoiLCJtYWMiOiJkYThmZTNmNWY4NThiMTczOGUzY2MzMGMyODdiNTc4YzI2ZDA3N2M0YjBhZWRkZmVlODBjZjhmZmE2NzBlZDUxIiwidGFnIjoiIn0%3D",
+    "accept-encoding": "gzip, deflate"
+  },
+  "duration": 466,
+  "allRequestResponses": [
+    {
+      "Request Body": null,
+      "Request Headers": {
+        "Connection": "keep-alive",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36",
+        "accept": "*/*",
+        "cookie": "cat_facts_session=eyJpdiI6InFsSC9FVThpcWJHZWMwejlseS90TWc9PSIsInZhbHVlIjoiejMva1pDNTNYZVp0dUo5QjdiVW9PK3g3Tm9jN3I4dkREUVlzWjhuYmR3RHZ4NnNKVm5kRkNuUGRTbjhubDI3UGwrYWF2MVZoME1aNkNjTlptYlpRWUgrT0pnWk5WOUQxRDhkSzBHVVFhanlEamtKa0EwS1JTT05zWU55cDRoR0UiLCJtYWMiOiJjYmExMmQ1Mzc0ZWQwMzg3MGMxZTczMzc3NDg1YzliMjQ3YjNhNjZkNTU5MTU1MTQ3NmE4NzZkYmRkMzQ2NDk3IiwidGFnIjoiIn0%3D; XSRF-TOKEN=eyJpdiI6IlZHb1FueHRLK2VZNEJ3TUdBSDNaSEE9PSIsInZhbHVlIjoiWHdEQUNGNnI2NUU3eTZVbVBpbkU1NitnWTZJTklyVmhuNlNoak13OFdwRWhVTDh5Y0dGdWVQMkxMSEZBYVhiK3hMYjVFLzE2d1NiMHNoNEQ0VHBaM1pIQm9qMDJnRi9jTjZPbFhtZmxyTDltWHNvSzlWN3JiUDJlNFlmOC9sZmoiLCJtYWMiOiJkYThmZTNmNWY4NThiMTczOGUzY2MzMGMyODdiNTc4YzI2ZDA3N2M0YjBhZWRkZmVlODBjZjhmZmE2NzBlZDUxIiwidGFnIjoiIn0%3D",
+        "accept-encoding": "gzip, deflate"
+      },
+      "Request URL": "https://catfact.ninja/fact",
+      "Response Body": "{\"fact\":\"Some common houseplants poisonous to cats include: English Ivy, iris, mistletoe, philodendron, and yew.\",\"length\":103}",
+      "Response Headers": {
+        "server": "nginx",
+        "date": "Fri, 16 Sep 2022 13:00:47 GMT",
+        "content-type": "application/json",
+        "transfer-encoding": "chunked",
+        "connection": "keep-alive",
+        "vary": "Accept-Encoding",
+        "cache-control": "no-cache, private",
+        "x-ratelimit-limit": "100",
+        "x-ratelimit-remaining": "99",
+        "access-control-allow-origin": "*",
+        "set-cookie": [
+          "XSRF-TOKEN=eyJpdiI6Ik1qR01tdlNLcTZGV1lyMEd3T0dHcWc9PSIsInZhbHVlIjoiTUo3cmw2aUUzSW1OWHkrNmF4Z0FqYVJzZHlvbVZyYTY2M1JYRnF4KzRVUWdKWi9uaGlrSVNTRTFHM3VqSnJNRTBGSG9tM1VSTHp3emFpL0JNSjdraFNOQ2VmNk40a3dVQlpUK3pwakg5SGo0c205aE1kR3pWdlFXdHQxRGxObGgiLCJtYWMiOiIyN2FkYjYzMTFlMmViYmI4ZjJmMzY3YTlhODNjZTBhNzcxNWNmZTIzMTliZDFmY2IwYTM2OGM4YzEyOWQ5ZGY4IiwidGFnIjoiIn0%3D; expires=Fri, 16-Sep-2022 15:00:47 GMT; path=/; samesite=lax",
+          "cat_facts_session=eyJpdiI6IlBMckhmc011cHdseUZlZ2NqcnowaGc9PSIsInZhbHVlIjoiRU4rY2FoYWdwRVIvaW1wdmdFTjFZS2padkI2Y1ZUUzdSVmlWZS9CYWd4dGRWcVZLYWl6RE45UUU5WFZKckRTb2pyZ2lYN0Y4Mld1NTF5dUZiMVJlS2FRWHZ0SDRta1J6NVEvRWxub0prYk9GWmVHS1l0bUx4WExtSmZDWU0ybGciLCJtYWMiOiIxMGVmNDg0ZWI5ODBkN2EwMzlkN2NhYzUxMWYwNzhjOTFiMmU5YzFjNzFlMzJhM2E0ZDZmNGQ0YjllZTkxY2QxIiwidGFnIjoiIn0%3D; expires=Fri, 16-Sep-2022 15:00:47 GMT; path=/; httponly; samesite=lax"
+        ],
+        "x-frame-options": "SAMEORIGIN",
+        "x-xss-protection": "1; mode=block",
+        "x-content-type-options": "nosniff",
+        "content-encoding": "gzip"
+      },
+      "Response Status": 200
+    }
+  ]
+}
