@@ -1,6 +1,6 @@
-
 const { defineConfig } = require('cypress')
-const {JsonSchemaValidation} = require('@jc21/cypress-jsonschema-validation');
+const {JsonSchemaValidation} = require('@jc21/cypress-jsonschema-validation')
+const envFile = require("./cypress/fixtures/env.json")
 module.exports = defineConfig({
 
     e2e: {
@@ -10,7 +10,7 @@ module.exports = defineConfig({
           on('task', JsonSchemaValidation(config));
           return config;
         },
-        baseUrl:  "http://www.eos-all55481-ro-dev.tgt.e5.c.emag.network/",
+        baseUrl: envFile.baseUrl,
         watchForFileChanges: false,
         chromeWebSecurity: false,
 
