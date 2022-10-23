@@ -1,10 +1,4 @@
 const {JsonSchemaValidation} = require('@jc21/cypress-jsonschema-validation');
-module.exports = (on, config) => {
-  // ...
-  on('task', JsonSchemaValidation(config));
-  // ...
-  return config;
-};
 
 describe('Basic API checks', () => {
   it('Should return a valid health payload', function () {
